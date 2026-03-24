@@ -13,30 +13,65 @@ skills/
 ├── arquitetura/     # Estrutura e padrões
 ├── dados/           # Acesso a dados e APIs
 ├── codificacao/     # Práticas de código
+├── backend/         # Desenvolvimento backend e servidor
+├── frontend/        # Desenvolvimento frontend e interface
+├── ui-ux/          # Design de interface e experiência
+├── database/       # Banco de dados e persistência
+├── devops/         # DevOps, infraestrutura e CI/CD
+├── api/            # APIs, integrações e serviços web
 └── utilitarios/     # Ferramentas diversas
 ```
 
 ## Hierarquia de Domínios
 
-Cada categoria técnica pode conter subpastas para domínios específicos:
+Cada categoria técnica contém subpastas para **27 domínios específicos**:
 
-- **core/**: Skills genéricas que servem para qualquer tipo de código
-- **financas/**: Domínio de finanças (exemplo)
-- **redes-sociais/**: Domínio de redes sociais (exemplo)
-- **video/**: Domínio de vídeo (exemplo)
-- **audio/**: Domínio de áudio (exemplo)
+| Domínio | Domínio | Domínio |
+|---------|---------|---------|
+| financas | redes-sociais | video |
+| audio | e-commerce | saude |
+| educacao | iot | gaming |
+| fintech | logistica | alimentacao |
+| entretenimento | tecnologia | energia |
+| agricultura | construcao | imoveis |
+| turismo | seguros | marketing |
+| recursos-humanos | juridico | governanca |
+| automacao | varejo | manufactura |
 
-### Exemplo de Expansão
+### Como os Domínios Funcionam
 
-```
-seguranca/
-├── core/           # skills genéricas
-├── financas/       # skills específicas para finanças
-│   ├── seguranca-financeira.md
-│   └── validacao-pix.md
-└── redes-sociais/ # skills específicas para redes sociais
-    └── moderacao-conteudo.md
-```
+- **Domínios vazios**: Cada pasta de domínio está vazia, pronta para receber skills específicas
+- **Exemplo de expansão**:
+  ```
+  seguranca/
+  ├── core/           # skills genéricas
+  ├── financas/       # skills específicas para finanças
+  │   ├── seguranca-financeira.md
+  │   └── validacao-pix.md
+  └── redes-sociais/  # skills específicas para redes sociais
+      └── moderacao-conteudo.md
+  ```
+
+## Categorias
+
+| Categoria | Qtd | Descrição |
+|-----------|-----|-----------|
+| orquestracao | 3 | Coordenar tasks complexas e multi-domínio |
+| criacao | 4 | Criar skills, código, ferramentas, MCPs |
+| qualidade | 3 | Revisão de código e validação |
+| seguranca | 4 | Proteção e testes de segurança |
+| arquitetura | 5 | Estrutura, padrões e design system |
+| dados | 2 | Acesso a dados e resiliência |
+| codificacao | 6 | Boas práticas de código |
+| backend | 4 | Desenvolvimento backend |
+| frontend | 4 | Desenvolvimento frontend |
+| ui-ux | 2 | Design de interface |
+| database | 2 | Banco de dados |
+| devops | 2 | DevOps e infraestrutura |
+| api | 2 | APIs e integrações |
+| utilitarios | 7 | Ferramentas diversas |
+
+**Total: 14 categorias técnicas + 27 domínios**
 
 ## Como Usar
 
@@ -48,20 +83,10 @@ As skills são indexadas pelo MCP `github-registry-mcp`. Use as tools:
 
 ## Adicionar Nova Skill
 
+### Para categoria core (genérica):
 1. Colocar a skill na pasta da categoria correspondente
 2. Usar a tool `registry_save` do MCP para adicionar ao índice
 
-## Categories
-
-| Categoria | Qtd | Descrição |
-|-----------|-----|-----------|
-| orquestracao | 3 | Coordenar tasks complexas e multi-domínio |
-| criacao | 4 | Criar skills, código, ferramentas, MCPs |
-| qualidade | 3 | Revisão de código e validação |
-| seguranca | 4 | Proteção e testes de segurança |
-| arquitetura | 5 | Estrutura, padrões e design system |
-| dados | 2 | Acesso a dados e resiliência |
-| codificacao | 6 | Boas práticas de código |
-| utilitarios | 7 | Ferramentas diversas |
-
-**Total: 34 skills core**
+### Para domínio específico:
+1. Criar a skill dentro da pasta do domínio (ex: `seguranca/financas/`)
+2. Adicionar ao índice com path correto (ex: `seguranca/financas/minha-skill/SKILL.md`)

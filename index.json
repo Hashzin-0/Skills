@@ -1,7 +1,7 @@
 {
   "type": "skills",
   "version": "1.0.0",
-  "lastUpdated": "2026-03-24T09:45:00.000Z",
+  "lastUpdated": "2026-03-24T09:50:00.000Z",
   "categories": [
     {
       "name": "orquestracao",
@@ -9,8 +9,9 @@
       "skills": [
         { "name": "skill-orchestrator", "path": "orquestracao/skill-orchestrator/SKILL.md", "tags": ["orchestration", "coordination", "planning"], "description": "Coordena tasks complexas, seleciona skills, constrói pipelines" },
         { "name": "agent-orchestrator", "path": "orquestracao/agent-orchestrator/SKILL.md", "tags": ["agents", "sub-agents", "coordination"], "description": "Cria e coordena sub-agentes para tarefas complexas" },
-        { "name": "skill-improver", "path": "orquestracao/skill-improver/SKILL.md", "tags": ["improvement", "evaluation", "optimization"], "description": "Melhora skills existentes baseado em observações" }
-      ]
+        { "name": "skill-improver", "path": "orquestracao/skill-improver/SKILL.md", "tags": ["improvement", "evaluation", "optimization"], "description": "Melhora skills existente baseado em observações" }
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
     {
       "name": "criacao",
@@ -20,7 +21,8 @@
         { "name": "code-archaeologist", "path": "criacao/code-archaeologist/SKILL.md", "tags": ["analysis", "patterns", "discovery"], "description": "Analisa código para descobrir ferramentas e padrões" },
         { "name": "tool-creator", "path": "criacao/tool-creator/SKILL.md", "tags": ["mcp", "tools", "security"], "description": "Cria tools MCP com validação de segurança" },
         { "name": "mcp-creator", "path": "criacao/mcp-creator/SKILL.md", "tags": ["mcp", "server", "creation"], "description": "Cria servidores MCP completos e seguros" }
-      ]
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
     {
       "name": "qualidade",
@@ -29,7 +31,8 @@
         { "name": "code-reviewer", "path": "qualidade/code-reviewer/SKILL.md", "tags": ["review", "security", "quality"], "description": "Revisa código verificando anti-padrões, segurança, acessibilidade" },
         { "name": "anti-patterns", "path": "qualidade/anti-patterns/SKILL.md", "tags": ["anti-patterns", "best-practices", "code-quality"], "description": "Identifica e previne anti-padrões em código" },
         { "name": "build-assist", "path": "qualidade/build-assist/SKILL.md", "tags": ["build", "compilation", "errors"], "description": "Auxilia em builds e parsing de erros de compilação" }
-      ]
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
     {
       "name": "seguranca",
@@ -39,7 +42,8 @@
         { "name": "security-tester", "path": "seguranca/security-tester/SKILL.md", "tags": ["penetration", "testing", "vulnerabilities"], "description": "Executa testes de segurança automatizados" },
         { "name": "seguranca-zero-confianca", "path": "seguranca/seguranca-zero-confianca/SKILL.md", "tags": ["zero-trust", "validation", "sanitization"], "description": "Validação completa e proteção contra ataques" },
         { "name": "mcp-security-validator", "path": "seguranca/mcp-security-validator/SKILL.md", "tags": ["mcp", "security", "validation"], "description": "Valida segurança de código MCP" }
-      ]
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
     {
       "name": "arquitetura",
@@ -50,7 +54,8 @@
         { "name": "future-scalability", "path": "arquitetura/future-scalability/SKILL.md", "tags": ["future", "extensibility", "flexibility"], "description": "Desenha para crescimento e mudanças futuras" },
         { "name": "mcp-structure", "path": "arquitetura/mcp-structure/SKILL.md", "tags": ["mcp", "structure", "templates"], "description": "Define estrutura padrão para projetos MCP" },
         { "name": "design-system-rigoroso", "path": "arquitetura/design-system-rigoroso/SKILL.md", "tags": ["design-system", "ui", "consistency"], "description": "Garante abstração e consistência visual" }
-      ]
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
     {
       "name": "dados",
@@ -58,7 +63,8 @@
       "skills": [
         { "name": "data-access-api", "path": "dados/data-access-api/SKILL.md", "tags": ["api", "database", "service"], "description": "Comunicação com banco de dados e APIs externas" },
         { "name": "resiliencia", "path": "dados/resiliencia/SKILL.md", "tags": ["resilience", "errors", "fallback"], "description": "Lida com falhas gracefully" }
-      ]
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
     {
       "name": "codificacao",
@@ -70,7 +76,66 @@
         { "name": "logica-isolada", "path": "codificacao/logica-isolada/SKILL.md", "tags": ["logic", "hooks", "separation"], "description": "Isola lógica em hooks ou services" },
         { "name": "padronizacao-absoluta", "path": "codificacao/padronizacao-absoluta/SKILL.md", "tags": ["standards", "conventions", "consistency"], "description": "Mantém consistência com padrões do projeto" },
         { "name": "performance", "path": "codificacao/performance/SKILL.md", "tags": ["performance", "optimization", "render"], "description": "Otimiza renderização e carregamento" }
-      ]
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
+    },
+    {
+      "name": "backend",
+      "description": "Desenvolvimento backend e servidor",
+      "skills": [
+        { "name": "data-access-api", "path": "backend/data-access-api/SKILL.md", "tags": ["api", "database", "service"], "description": "Comunicação com banco de dados e APIs" },
+        { "name": "security", "path": "backend/security/SKILL.md", "tags": ["security", "authentication", "validation"], "description": "Práticas de segurança em código backend" },
+        { "name": "modularization", "path": "backend/modularization/SKILL.md", "tags": ["modular", "organization", "files"], "description": "Organização de código backend" },
+        { "name": "resiliencia", "path": "backend/resiliencia/SKILL.md", "tags": ["resilience", "errors", "fallback"], "description": "Tratamento de falhas em sistemas backend" }
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
+    },
+    {
+      "name": "frontend",
+      "description": "Desenvolvimento frontend e interface",
+      "skills": [
+        { "name": "strict-typing", "path": "frontend/strict-typing/SKILL.md", "tags": ["typescript", "types", "safety"], "description": "TypeScript estrito para frontend" },
+        { "name": "design-system-rigoroso", "path": "frontend/design-system-rigoroso/SKILL.md", "tags": ["design-system", "ui", "consistency"], "description": "Design system e consistência visual" },
+        { "name": "performance", "path": "frontend/performance/SKILL.md", "tags": ["performance", "optimization", "render"], "description": "Otimização de renderização frontend" },
+        { "name": "code-reviewer", "path": "frontend/code-reviewer/SKILL.md", "tags": ["review", "security", "quality"], "description": "Revisão de código frontend" }
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
+    },
+    {
+      "name": "ui-ux",
+      "description": "Design de interface e experiência do usuário",
+      "skills": [
+        { "name": "design-system-rigoroso", "path": "ui-ux/design-system-rigoroso/SKILL.md", "tags": ["design-system", "ui", "consistency"], "description": "Design system para interfaces" },
+        { "name": "code-reviewer", "path": "ui-ux/code-reviewer/SKILL.md", "tags": ["review", "a11y", "ui"], "description": "Revisão com foco em acessibilidade e UI" }
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
+    },
+    {
+      "name": "database",
+      "description": "Banco de dados e persistência",
+      "skills": [
+        { "name": "data-access-api", "path": "database/data-access-api/SKILL.md", "tags": ["database", "persistence", "query"], "description": "Acesso e consulta a bancos de dados" },
+        { "name": "resiliencia", "path": "database/resiliencia/SKILL.md", "tags": ["resilience", "backup", "recovery"], "description": "Resiliência e recuperação de dados" }
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
+    },
+    {
+      "name": "devops",
+      "description": "DevOps, infraestrutura e CI/CD",
+      "skills": [
+        { "name": "skill-stack", "path": "devops/skill-stack/SKILL.md", "tags": ["stack", "detection", "infrastructure"], "description": "Detecção de stack e infraestrutura" },
+        { "name": "build-assist", "path": "devops/build-assist/SKILL.md", "tags": ["build", "ci", "cd"], "description": "Assistência em builds e CI/CD" }
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
+    },
+    {
+      "name": "api",
+      "description": "APIs, integrações e serviços web",
+      "skills": [
+        { "name": "data-access-api", "path": "api/data-access-api/SKILL.md", "tags": ["api", "rest", "graphql"], "description": "Desenvolvimento de APIs REST/GraphQL" },
+        { "name": "security", "path": "api/security/SKILL.md", "tags": ["api", "security", "auth"], "description": "Segurança de APIs e autenticação" }
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
     {
       "name": "utilitarios",
@@ -83,7 +148,8 @@
         { "name": "fidelidade-instrucoes", "path": "utilitarios/fidelidade-instrucoes/SKILL.md", "tags": ["instructions", "adherence", "precision"], "description": "Aderência estrita às instruções do usuário" },
         { "name": "modo-interacao-restrito", "path": "utilitarios/modo-interacao-restrito/SKILL.md", "tags": ["readonly", "restricted", "interaction"], "description": "Modo de interação restrito (somente leitura)" },
         { "name": "skill-stack", "path": "utilitarios/skill-stack/SKILL.md", "tags": ["stack", "detection", "context"], "description": "Detecta stack tecnológico do projeto" }
-      ]
+      ],
+      "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     }
   ]
 }
