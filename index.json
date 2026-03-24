@@ -1,0 +1,89 @@
+{
+  "type": "skills",
+  "version": "1.0.0",
+  "lastUpdated": "2026-03-24T09:45:00.000Z",
+  "categories": [
+    {
+      "name": "orquestracao",
+      "description": "Orquestração de tasks complexas e multi-domínio",
+      "skills": [
+        { "name": "skill-orchestrator", "path": "orquestracao/skill-orchestrator/SKILL.md", "tags": ["orchestration", "coordination", "planning"], "description": "Coordena tasks complexas, seleciona skills, constrói pipelines" },
+        { "name": "agent-orchestrator", "path": "orquestracao/agent-orchestrator/SKILL.md", "tags": ["agents", "sub-agents", "coordination"], "description": "Cria e coordena sub-agentes para tarefas complexas" },
+        { "name": "skill-improver", "path": "orquestracao/skill-improver/SKILL.md", "tags": ["improvement", "evaluation", "optimization"], "description": "Melhora skills existentes baseado em observações" }
+      ]
+    },
+    {
+      "name": "criacao",
+      "description": "Criação e geração de código, artefatos e ferramentas",
+      "skills": [
+        { "name": "skill-creator", "path": "criacao/skill-creator/SKILL.md", "tags": ["creation", "generation", "evals"], "description": "Cria e melhora skills com iterálise e avaliação" },
+        { "name": "code-archaeologist", "path": "criacao/code-archaeologist/SKILL.md", "tags": ["analysis", "patterns", "discovery"], "description": "Analisa código para descobrir ferramentas e padrões" },
+        { "name": "tool-creator", "path": "criacao/tool-creator/SKILL.md", "tags": ["mcp", "tools", "security"], "description": "Cria tools MCP com validação de segurança" },
+        { "name": "mcp-creator", "path": "criacao/mcp-creator/SKILL.md", "tags": ["mcp", "server", "creation"], "description": "Cria servidores MCP completos e seguros" }
+      ]
+    },
+    {
+      "name": "qualidade",
+      "description": "Revisão, testes e validação de código",
+      "skills": [
+        { "name": "code-reviewer", "path": "qualidade/code-reviewer/SKILL.md", "tags": ["review", "security", "quality"], "description": "Revisa código verificando anti-padrões, segurança, acessibilidade" },
+        { "name": "anti-patterns", "path": "qualidade/anti-patterns/SKILL.md", "tags": ["anti-patterns", "best-practices", "code-quality"], "description": "Identifica e previne anti-padrões em código" },
+        { "name": "build-assist", "path": "qualidade/build-assist/SKILL.md", "tags": ["build", "compilation", "errors"], "description": "Auxilia em builds e parsing de erros de compilação" }
+      ]
+    },
+    {
+      "name": "seguranca",
+      "description": "Segurança, proteção e testes de penetração",
+      "skills": [
+        { "name": "security", "path": "seguranca/security/SKILL.md", "tags": ["security", "authentication", "validation"], "description": "Implementa práticas de segurança em código" },
+        { "name": "security-tester", "path": "seguranca/security-tester/SKILL.md", "tags": ["penetration", "testing", "vulnerabilities"], "description": "Executa testes de segurança automatizados" },
+        { "name": "seguranca-zero-confianca", "path": "seguranca/seguranca-zero-confianca/SKILL.md", "tags": ["zero-trust", "validation", "sanitization"], "description": "Validação completa e proteção contra ataques" },
+        { "name": "mcp-security-validator", "path": "seguranca/mcp-security-validator/SKILL.md", "tags": ["mcp", "security", "validation"], "description": "Valida segurança de código MCP" }
+      ]
+    },
+    {
+      "name": "arquitetura",
+      "description": "Estrutura, padrões e design system",
+      "skills": [
+        { "name": "scalable-architecture", "path": "arquitetura/scalable-architecture/SKILL.md", "tags": ["architecture", "scalability", "coupling"], "description": "Desenha como módulos se conectam" },
+        { "name": "modularization", "path": "arquitetura/modularization/SKILL.md", "tags": ["modular", "organization", "files"], "description": "Decide onde código pertence e organização" },
+        { "name": "future-scalability", "path": "arquitetura/future-scalability/SKILL.md", "tags": ["future", "extensibility", "flexibility"], "description": "Desenha para crescimento e mudanças futuras" },
+        { "name": "mcp-structure", "path": "arquitetura/mcp-structure/SKILL.md", "tags": ["mcp", "structure", "templates"], "description": "Define estrutura padrão para projetos MCP" },
+        { "name": "design-system-rigoroso", "path": "arquitetura/design-system-rigoroso/SKILL.md", "tags": ["design-system", "ui", "consistency"], "description": "Garante abstração e consistência visual" }
+      ]
+    },
+    {
+      "name": "dados",
+      "description": "Acesso a dados, APIs externas e resiliência",
+      "skills": [
+        { "name": "data-access-api", "path": "dados/data-access-api/SKILL.md", "tags": ["api", "database", "service"], "description": "Comunicação com banco de dados e APIs externas" },
+        { "name": "resiliencia", "path": "dados/resiliencia/SKILL.md", "tags": ["resilience", "errors", "fallback"], "description": "Lida com falhas gracefully" }
+      ]
+    },
+    {
+      "name": "codificacao",
+      "description": "Boas práticas de código e desenvolvimento",
+      "skills": [
+        { "name": "strict-typing", "path": "codificacao/strict-typing/SKILL.md", "tags": ["typescript", "types", "safety"], "description": "TypeScript estrito e tipos seguros" },
+        { "name": "maintainability", "path": "codificacao/maintainability/SKILL.md", "tags": ["maintainability", "readability", "refactor"], "description": "Código legível e de fácil manutenção" },
+        { "name": "reusability", "path": "codificacao/reusability/SKILL.md", "tags": ["reusability", "dry", "abstraction"], "description": "Extrai código duplicado em abstrações" },
+        { "name": "logica-isolada", "path": "codificacao/logica-isolada/SKILL.md", "tags": ["logic", "hooks", "separation"], "description": "Isola lógica em hooks ou services" },
+        { "name": "padronizacao-absoluta", "path": "codificacao/padronizacao-absoluta/SKILL.md", "tags": ["standards", "conventions", "consistency"], "description": "Mantém consistência com padrões do projeto" },
+        { "name": "performance", "path": "codificacao/performance/SKILL.md", "tags": ["performance", "optimization", "render"], "description": "Otimiza renderização e carregamento" }
+      ]
+    },
+    {
+      "name": "utilitarios",
+      "description": "Ferramentas diversas e utilitários",
+      "skills": [
+        { "name": "resume-builder", "path": "utilitarios/resume-builder/SKILL.md", "tags": ["resume", "cv", "document"], "description": "Constrói currículos e CVs profissionais" },
+        { "name": "sam", "path": "utilitarios/sam/SKILL.md", "tags": ["registry", "skills", "agents"], "description": "Avalia repositórios de registry" },
+        { "name": "sugestoes-alto-impacto", "path": "utilitarios/sugestoes-alto-impacto/SKILL.md", "tags": ["strategy", "ideas", "consulting"], "description": "Brainstorm estratégico de alto impacto" },
+        { "name": "veracidade-confiabilidade", "path": "utilitarios/veracidade-confiabilidade/SKILL.md", "tags": ["verification", "truth", "validation"], "description": "Tolerância zero à alucinação" },
+        { "name": "fidelidade-instrucoes", "path": "utilitarios/fidelidade-instrucoes/SKILL.md", "tags": ["instructions", "adherence", "precision"], "description": "Aderência estrita às instruções do usuário" },
+        { "name": "modo-interacao-restrito", "path": "utilitarios/modo-interacao-restrito/SKILL.md", "tags": ["readonly", "restricted", "interaction"], "description": "Modo de interação restrito (somente leitura)" },
+        { "name": "skill-stack", "path": "utilitarios/skill-stack/SKILL.md", "tags": ["stack", "detection", "context"], "description": "Detecta stack tecnológico do projeto" }
+      ]
+    }
+  ]
+}
