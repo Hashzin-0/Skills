@@ -1,7 +1,7 @@
 {
   "type": "skills",
   "version": "1.0.0",
-  "lastUpdated": "2026-03-24T09:50:00.000Z",
+  "lastUpdated": "2026-03-28T00:00:00.000Z",
   "categories": [
     {
       "name": "orquestracao",
@@ -9,7 +9,10 @@
       "skills": [
         { "name": "skill-orchestrator", "path": "orquestracao/skill-orchestrator/SKILL.md", "tags": ["orchestration", "coordination", "planning"], "description": "Coordena tasks complexas, seleciona skills, constrói pipelines" },
         { "name": "agent-orchestrator", "path": "orquestracao/agent-orchestrator/SKILL.md", "tags": ["agents", "sub-agents", "coordination"], "description": "Cria e coordena sub-agentes para tarefas complexas" },
-        { "name": "skill-improver", "path": "orquestracao/skill-improver/SKILL.md", "tags": ["improvement", "evaluation", "optimization"], "description": "Melhora skills existente baseado em observações" }
+        { "name": "skill-improver", "path": "orquestracao/skill-improver/SKILL.md", "tags": ["improvement", "evaluation", "optimization"], "description": "Melhora skills existente baseado em observações" },
+        { "name": "intelligent-routing", "path": "orquestracao/intelligent-routing/SKILL.md", "tags": ["routing", "agents", "selection"], "description": "Automatic agent selection and intelligent task routing" },
+        { "name": "parallel-agents", "path": "orquestracao/parallel-agents/SKILL.md", "tags": ["orchestration", "multi-agent", "coordination"], "description": "Multi-agent orchestration patterns" },
+        { "name": "plan-writing", "path": "orquestracao/plan-writing/SKILL.md", "tags": ["planning", "tasks", "breakdown"], "description": "Structured task planning with clear breakdowns" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -20,7 +23,9 @@
         { "name": "skill-creator", "path": "criacao/skill-creator/SKILL.md", "tags": ["creation", "generation", "evals"], "description": "Cria e melhora skills com iterálise e avaliação" },
         { "name": "code-archaeologist", "path": "criacao/code-archaeologist/SKILL.md", "tags": ["analysis", "patterns", "discovery"], "description": "Analisa código para descobrir ferramentas e padrões" },
         { "name": "tool-creator", "path": "criacao/tool-creator/SKILL.md", "tags": ["mcp", "tools", "security"], "description": "Cria tools MCP com validação de segurança" },
-        { "name": "mcp-creator", "path": "criacao/mcp-creator/SKILL.md", "tags": ["mcp", "server", "creation"], "description": "Cria servidores MCP completos e seguros" }
+        { "name": "mcp-creator", "path": "criacao/mcp-creator/SKILL.md", "tags": ["mcp", "server", "creation"], "description": "Cria servidores MCP completos e seguros" },
+        { "name": "app-builder", "path": "criacao/app-builder/SKILL.md", "tags": ["creation", "scaffolding", "fullstack"], "description": "Main application building orchestrator" },
+        { "name": "documentation-templates", "path": "criacao/documentation-templates/SKILL.md", "tags": ["documentation", "templates", "readme"], "description": "Documentation templates and structure guidelines" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -30,7 +35,14 @@
       "skills": [
         { "name": "code-reviewer", "path": "qualidade/code-reviewer/SKILL.md", "tags": ["review", "security", "quality"], "description": "Revisa código verificando anti-padrões, segurança, acessibilidade" },
         { "name": "anti-patterns", "path": "qualidade/anti-patterns/SKILL.md", "tags": ["anti-patterns", "best-practices", "code-quality"], "description": "Identifica e previne anti-padrões em código" },
-        { "name": "build-assist", "path": "qualidade/build-assist/SKILL.md", "tags": ["build", "compilation", "errors"], "description": "Auxilia em builds e parsing de erros de compilação" }
+        { "name": "build-assist", "path": "qualidade/build-assist/SKILL.md", "tags": ["build", "compilation", "errors"], "description": "Auxilia em builds e parsing de erros de compilação" },
+        { "name": "code-review-checklist", "path": "qualidade/code-review-checklist/SKILL.md", "tags": ["review", "checklist", "security"], "description": "Code review guidelines covering code quality, security, and best practices" },
+        { "name": "lint-and-validate", "path": "qualidade/lint-and-validate/SKILL.md", "tags": ["lint", "validation", "quality"], "description": "Automatic quality control, linting, and static analysis" },
+        { "name": "performance-profiling", "path": "qualidade/performance-profiling/SKILL.md", "tags": ["performance", "profiling", "optimization"], "description": "Performance profiling principles and optimization" },
+        { "name": "systematic-debugging", "path": "qualidade/systematic-debugging/SKILL.md", "tags": ["debugging", "methodology", "troubleshooting"], "description": "4-phase systematic debugging methodology" },
+        { "name": "tdd-workflow", "path": "qualidade/tdd-workflow/SKILL.md", "tags": ["tdd", "testing", "workflow"], "description": "Test-Driven Development workflow principles" },
+        { "name": "testing-patterns", "path": "qualidade/testing-patterns/SKILL.md", "tags": ["testing", "patterns", "unit"], "description": "Testing patterns and principles" },
+        { "name": "webapp-testing", "path": "qualidade/webapp-testing/SKILL.md", "tags": ["testing", "e2e", "playwright"], "description": "Web application testing principles" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -41,7 +53,9 @@
         { "name": "security", "path": "seguranca/security/SKILL.md", "tags": ["security", "authentication", "validation"], "description": "Implementa práticas de segurança em código" },
         { "name": "security-tester", "path": "seguranca/security-tester/SKILL.md", "tags": ["penetration", "testing", "vulnerabilities"], "description": "Executa testes de segurança automatizados" },
         { "name": "seguranca-zero-confianca", "path": "seguranca/seguranca-zero-confianca/SKILL.md", "tags": ["zero-trust", "validation", "sanitization"], "description": "Validação completa e proteção contra ataques" },
-        { "name": "mcp-security-validator", "path": "seguranca/mcp-security-validator/SKILL.md", "tags": ["mcp", "security", "validation"], "description": "Valida segurança de código MCP" }
+        { "name": "mcp-security-validator", "path": "seguranca/mcp-security-validator/SKILL.md", "tags": ["mcp", "security", "validation"], "description": "Valida segurança de código MCP" },
+        { "name": "red-team-tactics", "path": "seguranca/red-team-tactics/SKILL.md", "tags": ["security", "red-team", "mitre"], "description": "Red team tactics principles based on MITRE ATT&CK" },
+        { "name": "vulnerability-scanner", "path": "seguranca/vulnerability-scanner/SKILL.md", "tags": ["security", "vulnerability", "owasp"], "description": "Advanced vulnerability analysis principles" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -53,7 +67,8 @@
         { "name": "modularization", "path": "arquitetura/modularization/SKILL.md", "tags": ["modular", "organization", "files"], "description": "Decide onde código pertence e organização" },
         { "name": "future-scalability", "path": "arquitetura/future-scalability/SKILL.md", "tags": ["future", "extensibility", "flexibility"], "description": "Desenha para crescimento e mudanças futuras" },
         { "name": "mcp-structure", "path": "arquitetura/mcp-structure/SKILL.md", "tags": ["mcp", "structure", "templates"], "description": "Define estrutura padrão para projetos MCP" },
-        { "name": "design-system-rigoroso", "path": "arquitetura/design-system-rigoroso/SKILL.md", "tags": ["design-system", "ui", "consistency"], "description": "Garante abstração e consistência visual" }
+        { "name": "design-system-rigoroso", "path": "arquitetura/design-system-rigoroso/SKILL.md", "tags": ["design-system", "ui", "consistency"], "description": "Garante abstração e consistência visual" },
+        { "name": "architecture", "path": "arquitetura/architecture/SKILL.md", "tags": ["architecture", "decision", "adr"], "description": "Architectural decision-making framework" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -75,7 +90,8 @@
         { "name": "reusability", "path": "codificacao/reusability/SKILL.md", "tags": ["reusability", "dry", "abstraction"], "description": "Extrai código duplicado em abstrações" },
         { "name": "logica-isolada", "path": "codificacao/logica-isolada/SKILL.md", "tags": ["logic", "hooks", "separation"], "description": "Isola lógica em hooks ou services" },
         { "name": "padronizacao-absoluta", "path": "codificacao/padronizacao-absoluta/SKILL.md", "tags": ["standards", "conventions", "consistency"], "description": "Mantém consistência com padrões do projeto" },
-        { "name": "performance", "path": "codificacao/performance/SKILL.md", "tags": ["performance", "optimization", "render"], "description": "Otimiza renderização e carregamento" }
+        { "name": "performance", "path": "codificacao/performance/SKILL.md", "tags": ["performance", "optimization", "render"], "description": "Otimiza renderização e carregamento" },
+        { "name": "clean-code", "path": "codificacao/clean-code/SKILL.md", "tags": ["clean-code", "pragmatic", "standards"], "description": "Pragmatic coding standards - concise, direct, no over-engineering" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -86,7 +102,10 @@
         { "name": "data-access-api", "path": "backend/data-access-api/SKILL.md", "tags": ["api", "database", "service"], "description": "Comunicação com banco de dados e APIs" },
         { "name": "security", "path": "backend/security/SKILL.md", "tags": ["security", "authentication", "validation"], "description": "Práticas de segurança em código backend" },
         { "name": "modularization", "path": "backend/modularization/SKILL.md", "tags": ["modular", "organization", "files"], "description": "Organização de código backend" },
-        { "name": "resiliencia", "path": "backend/resiliencia/SKILL.md", "tags": ["resilience", "errors", "fallback"], "description": "Tratamento de falhas em sistemas backend" }
+        { "name": "resiliencia", "path": "backend/resiliencia/SKILL.md", "tags": ["resilience", "errors", "fallback"], "description": "Tratamento de falhas em sistemas backend" },
+        { "name": "nodejs-best-practices", "path": "backend/nodejs-best-practices/SKILL.md", "tags": ["nodejs", "backend", "async"], "description": "Node.js development principles and decision-making" },
+        { "name": "python-patterns", "path": "backend/python-patterns/SKILL.md", "tags": ["python", "backend", "django"], "description": "Python development principles and decision-making" },
+        { "name": "rust-pro", "path": "backend/rust-pro/SKILL.md", "tags": ["rust", "systems", "performance"], "description": "Master Rust 1.75+ with modern async patterns" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -97,7 +116,10 @@
         { "name": "strict-typing", "path": "frontend/strict-typing/SKILL.md", "tags": ["typescript", "types", "safety"], "description": "TypeScript estrito para frontend" },
         { "name": "design-system-rigoroso", "path": "frontend/design-system-rigoroso/SKILL.md", "tags": ["design-system", "ui", "consistency"], "description": "Design system e consistência visual" },
         { "name": "performance", "path": "frontend/performance/SKILL.md", "tags": ["performance", "optimization", "render"], "description": "Otimização de renderização frontend" },
-        { "name": "code-reviewer", "path": "frontend/code-reviewer/SKILL.md", "tags": ["review", "security", "quality"], "description": "Revisão de código frontend" }
+        { "name": "code-reviewer", "path": "frontend/code-reviewer/SKILL.md", "tags": ["review", "security", "quality"], "description": "Revisão de código frontend" },
+        { "name": "frontend-design", "path": "frontend/frontend-design/SKILL.md", "tags": ["frontend", "design", "ui"], "description": "Design thinking and decision-making for web UI" },
+        { "name": "nextjs-react-expert", "path": "frontend/nextjs-react-expert/SKILL.md", "tags": ["nextjs", "react", "performance"], "description": "React and Next.js performance optimization" },
+        { "name": "tailwind-patterns", "path": "frontend/tailwind-patterns/SKILL.md", "tags": ["tailwind", "css", "styling"], "description": "Tailwind CSS v4 principles" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -106,7 +128,8 @@
       "description": "Design de interface e experiência do usuário",
       "skills": [
         { "name": "design-system-rigoroso", "path": "ui-ux/design-system-rigoroso/SKILL.md", "tags": ["design-system", "ui", "consistency"], "description": "Design system para interfaces" },
-        { "name": "code-reviewer", "path": "ui-ux/code-reviewer/SKILL.md", "tags": ["review", "a11y", "ui"], "description": "Revisão com foco em acessibilidade e UI" }
+        { "name": "code-reviewer", "path": "ui-ux/code-reviewer/SKILL.md", "tags": ["review", "a11y", "ui"], "description": "Revisão com foco em acessibilidade e UI" },
+        { "name": "web-design-guidelines", "path": "ui-ux/web-design-guidelines/SKILL.md", "tags": ["ui", "guidelines", "accessibility"], "description": "Web Interface Guidelines compliance review" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -115,7 +138,8 @@
       "description": "Banco de dados e persistência",
       "skills": [
         { "name": "data-access-api", "path": "database/data-access-api/SKILL.md", "tags": ["database", "persistence", "query"], "description": "Acesso e consulta a bancos de dados" },
-        { "name": "resiliencia", "path": "database/resiliencia/SKILL.md", "tags": ["resilience", "backup", "recovery"], "description": "Resiliência e recuperação de dados" }
+        { "name": "resiliencia", "path": "database/resiliencia/SKILL.md", "tags": ["resilience", "backup", "recovery"], "description": "Resiliência e recuperação de dados" },
+        { "name": "database-design", "path": "database/database-design/SKILL.md", "tags": ["database", "design", "schema"], "description": "Database design principles and decision-making" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -124,7 +148,11 @@
       "description": "DevOps, infraestrutura e CI/CD",
       "skills": [
         { "name": "skill-stack", "path": "devops/skill-stack/SKILL.md", "tags": ["stack", "detection", "infrastructure"], "description": "Detecção de stack e infraestrutura" },
-        { "name": "build-assist", "path": "devops/build-assist/SKILL.md", "tags": ["build", "ci", "cd"], "description": "Assistência em builds e CI/CD" }
+        { "name": "build-assist", "path": "devops/build-assist/SKILL.md", "tags": ["build", "ci", "cd"], "description": "Assistência em builds e CI/CD" },
+        { "name": "bash-linux", "path": "devops/bash-linux/SKILL.md", "tags": ["bash", "linux", "terminal"], "description": "Bash/Linux terminal patterns" },
+        { "name": "deployment-procedures", "path": "devops/deployment-procedures/SKILL.md", "tags": ["deployment", "devops", "production"], "description": "Production deployment principles and decision-making" },
+        { "name": "powershell-windows", "path": "devops/powershell-windows/SKILL.md", "tags": ["powershell", "windows", "scripting"], "description": "PowerShell Windows patterns" },
+        { "name": "server-management", "path": "devops/server-management/SKILL.md", "tags": ["server", "monitoring", "devops"], "description": "Server management principles and decision-making" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -133,7 +161,8 @@
       "description": "APIs, integrações e serviços web",
       "skills": [
         { "name": "data-access-api", "path": "api/data-access-api/SKILL.md", "tags": ["api", "rest", "graphql"], "description": "Desenvolvimento de APIs REST/GraphQL" },
-        { "name": "security", "path": "api/security/SKILL.md", "tags": ["api", "security", "auth"], "description": "Segurança de APIs e autenticação" }
+        { "name": "security", "path": "api/security/SKILL.md", "tags": ["api", "security", "auth"], "description": "Segurança de APIs e autenticação" },
+        { "name": "api-patterns", "path": "api/api-patterns/SKILL.md", "tags": ["api", "design", "rest"], "description": "API design principles and decision-making" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
     },
@@ -147,9 +176,52 @@
         { "name": "veracidade-confiabilidade", "path": "utilitarios/veracidade-confiabilidade/SKILL.md", "tags": ["verification", "truth", "validation"], "description": "Tolerância zero à alucinação" },
         { "name": "fidelidade-instrucoes", "path": "utilitarios/fidelidade-instrucoes/SKILL.md", "tags": ["instructions", "adherence", "precision"], "description": "Aderência estrita às instruções do usuário" },
         { "name": "modo-interacao-restrito", "path": "utilitarios/modo-interacao-restrito/SKILL.md", "tags": ["readonly", "restricted", "interaction"], "description": "Modo de interação restrito (somente leitura)" },
-        { "name": "skill-stack", "path": "utilitarios/skill-stack/SKILL.md", "tags": ["stack", "detection", "context"], "description": "Detecta stack tecnológico do projeto" }
+        { "name": "skill-stack", "path": "utilitarios/skill-stack/SKILL.md", "tags": ["stack", "detection", "context"], "description": "Detecta stack tecnológico do projeto" },
+        { "name": "behavioral-modes", "path": "utilitarios/behavioral-modes/SKILL.md", "tags": ["ai", "modes", "behavior"], "description": "AI operational modes (brainstorm, implement, debug, review)" },
+        { "name": "brainstorming", "path": "utilitarios/brainstorming/SKILL.md", "tags": ["brainstorming", "socratic", "communication"], "description": "Socratic questioning protocol and user communication" }
       ],
       "domains": ["financas", "redes-sociais", "video", "audio", "e-commerce", "saude", "educacao", "iot", "gaming", "fintech", "logistica", "alimentacao", "entretenimento", "tecnologia", "energia", "agricultura", "construcao", "imoveis", "turismo", "seguros", "marketing", "recursos-humanos", "juridico", "governanca", "automacao", "varejo", "manufactura"]
+    },
+    {
+      "name": "games",
+      "description": "Game development and design",
+      "skills": [
+        { "name": "game-development", "path": "games/game-development/SKILL.md", "tags": ["games", "development", "design"], "description": "Game development orchestrator and principles" }
+      ],
+      "domains": ["gaming", "entretenimento", "video", "audio"]
+    },
+    {
+      "name": "internationalization",
+      "description": "Internationalization and localization",
+      "skills": [
+        { "name": "i18n-localization", "path": "internationalization/i18n-localization/SKILL.md", "tags": ["i18n", "localization", "translation"], "description": "Internationalization and localization patterns" }
+      ],
+      "domains": ["e-commerce", "saude", "educacao", "tecnologia", "varejo"]
+    },
+    {
+      "name": "marketing",
+      "description": "SEO and digital marketing",
+      "skills": [
+        { "name": "seo-fundamentals", "path": "marketing/seo-fundamentals/SKILL.md", "tags": ["seo", "marketing", "search"], "description": "SEO fundamentals, E-E-A-T, and Core Web Vitals" },
+        { "name": "geo-fundamentals", "path": "marketing/geo-fundamentals/SKILL.md", "tags": ["geo", "seo", "ai"], "description": "Generative Engine Optimization for AI search engines" }
+      ],
+      "domains": ["marketing", "e-commerce", "entretenimento", "tecnologia"]
+    },
+    {
+      "name": "mobile",
+      "description": "Mobile development and design",
+      "skills": [
+        { "name": "mobile-design", "path": "mobile/mobile-design/SKILL.md", "tags": ["mobile", "ios", "android"], "description": "Mobile-first design thinking and decision-making" }
+      ],
+      "domains": ["mobile", "gaming", "e-commerce", "varejo"]
+    },
+    {
+      "name": "mcp",
+      "description": "Model Context Protocol",
+      "skills": [
+        { "name": "mcp-builder", "path": "mcp/mcp-builder/SKILL.md", "tags": ["mcp", "tools", "server"], "description": "MCP server building principles" }
+      ],
+      "domains": ["tecnologia", "automacao", "desenvolvimento"]
     }
   ]
 }
