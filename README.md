@@ -73,6 +73,18 @@ Cada categoria técnica contém subpastas para **27 domínios específicos**:
 
 **Total: 14 categorias técnicas + 27 domínios**
 
+## Registro e validação automatizada
+
+O arquivo `index.json` é o índice consumido pelo `github-registry-mcp`; `plugins/skills-manifest.json` agrupa as nove skills importadas para composição dos plugins. Ao adicionar ou mover uma skill referenciada pelo manifesto, atualize os dois arquivos.
+
+Valide localmente com:
+
+```bash
+node scripts/validate-skills-manifest.mjs
+```
+
+O validador verifica a estrutura dos JSONs, a existência de cada arquivo listado no manifesto, o frontmatter das skills e a correspondência de nome/caminho entre o manifesto e `index.json`. O workflow `Validate Skills Registry` executa essa verificação em pull requests e pushes para `main`. Ele não publica nem atualiza plugins privados automaticamente.
+
 ## Como Usar
 
 As skills são indexadas pelo MCP `github-registry-mcp`. Use as tools:
