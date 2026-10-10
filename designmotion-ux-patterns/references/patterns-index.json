@@ -1,0 +1,610 @@
+[
+  {
+    "number": 1,
+    "title": "CSS Has Selector",
+    "slug": "css-has-selector",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/css-has-selector",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 2,
+    "title": "De-AI Landing Hero",
+    "slug": "de-ai-landing-hero",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/de-ai-landing-hero",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 3,
+    "title": "Reverse-Engineered Linear",
+    "slug": "reverse-engineered-linear",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/reverse-engineered-linear",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 4,
+    "title": "Bulk Actions",
+    "slug": "bulk-actions",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/bulk-actions",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 5,
+    "title": "Disabled Buttons",
+    "slug": "disabled-buttons",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/disabled-buttons",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 6,
+    "title": "Hover Trap",
+    "slug": "hover-trap",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/hover-trap",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 7,
+    "title": "Behind the Button",
+    "slug": "behind-the-button",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/behind-the-button",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 8,
+    "title": "Settings System",
+    "slug": "settings-system",
+    "category": "forms",
+    "url": "https://designmotionhq.com/patterns/settings-system",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 9,
+    "title": "Autosave",
+    "slug": "autosave-ux",
+    "category": "forms",
+    "url": "https://designmotionhq.com/patterns/autosave-ux",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 10,
+    "title": "Inline Editing",
+    "slug": "inline-editing",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/inline-editing",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 11,
+    "title": "Live Cursors",
+    "slug": "live-cursors",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/live-cursors",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 12,
+    "title": "Destructive Actions",
+    "slug": "destructive-actions",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/destructive-actions",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 13,
+    "title": "Context Menu",
+    "slug": "context-menu",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/context-menu",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 14,
+    "title": "Animation Timing",
+    "slug": "animation-timing",
+    "category": "motion",
+    "url": "https://designmotionhq.com/patterns/animation-timing",
+    "skill": "motion-animation"
+  },
+  {
+    "number": 15,
+    "title": "Charts That Lie",
+    "slug": "charts-that-lie",
+    "category": "data-visualization",
+    "url": "https://designmotionhq.com/patterns/charts-that-lie",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 16,
+    "title": "Date Pickers",
+    "slug": "date-pickers",
+    "category": "forms",
+    "url": "https://designmotionhq.com/patterns/date-pickers",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 17,
+    "title": "Design System Kit",
+    "slug": "design-system-kit",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/design-system-kit",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 18,
+    "title": "Doherty Threshold",
+    "slug": "doherty-threshold",
+    "category": "feedback",
+    "url": "https://designmotionhq.com/patterns/doherty-threshold",
+    "skill": "feedback-loading-errors"
+  },
+  {
+    "number": 19,
+    "title": "Drag and Drop",
+    "slug": "drag-and-drop",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/drag-and-drop",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 20,
+    "title": "Dropdown Design",
+    "slug": "dropdown-design",
+    "category": "inputs",
+    "url": "https://designmotionhq.com/patterns/dropdown-design",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 21,
+    "title": "Easing Curves",
+    "slug": "easing-curves",
+    "category": "motion",
+    "url": "https://designmotionhq.com/patterns/easing-curves",
+    "skill": "motion-animation"
+  },
+  {
+    "number": 22,
+    "title": "Empty States",
+    "slug": "empty-states",
+    "category": "content",
+    "url": "https://designmotionhq.com/patterns/empty-states",
+    "skill": "content-conversion"
+  },
+  {
+    "number": 23,
+    "title": "Error States",
+    "slug": "error-states",
+    "category": "feedback",
+    "url": "https://designmotionhq.com/patterns/error-states",
+    "skill": "feedback-loading-errors"
+  },
+  {
+    "number": 24,
+    "title": "Form Field States",
+    "slug": "form-field-states",
+    "category": "forms",
+    "url": "https://designmotionhq.com/patterns/form-field-states",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 25,
+    "title": "Golden Ratio",
+    "slug": "golden-ratio",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/golden-ratio",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 26,
+    "title": "Grid System",
+    "slug": "grid-system",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/grid-system",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 27,
+    "title": "Input Masking",
+    "slug": "input-masking",
+    "category": "forms",
+    "url": "https://designmotionhq.com/patterns/input-masking",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 28,
+    "title": "Loading States System",
+    "slug": "loading-states-system",
+    "category": "feedback",
+    "url": "https://designmotionhq.com/patterns/loading-states-system",
+    "skill": "feedback-loading-errors"
+  },
+  {
+    "number": 29,
+    "title": "Navigation Patterns",
+    "slug": "navigation-patterns",
+    "category": "navigation",
+    "url": "https://designmotionhq.com/patterns/navigation-patterns",
+    "skill": "navigation-information-architecture"
+  },
+  {
+    "number": 30,
+    "title": "Notification System",
+    "slug": "notification-system",
+    "category": "feedback",
+    "url": "https://designmotionhq.com/patterns/notification-system",
+    "skill": "feedback-loading-errors"
+  },
+  {
+    "number": 31,
+    "title": "Peak-End Rule",
+    "slug": "peak-end-rule",
+    "category": "content",
+    "url": "https://designmotionhq.com/patterns/peak-end-rule",
+    "skill": "content-conversion"
+  },
+  {
+    "number": 32,
+    "title": "Proximity Rule",
+    "slug": "proximity-rule",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/proximity-rule",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 33,
+    "title": "Range Sliders",
+    "slug": "range-sliders",
+    "category": "inputs",
+    "url": "https://designmotionhq.com/patterns/range-sliders",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 34,
+    "title": "Search Experience System",
+    "slug": "search-experience-system",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/search-experience-system",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 35,
+    "title": "Serial Position",
+    "slug": "serial-position",
+    "category": "content",
+    "url": "https://designmotionhq.com/patterns/serial-position",
+    "skill": "content-conversion"
+  },
+  {
+    "number": 36,
+    "title": "Shadow Elevation",
+    "slug": "shadow-elevation",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/shadow-elevation",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 37,
+    "title": "Star Rating",
+    "slug": "star-rating",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/star-rating",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 38,
+    "title": "Stepper Wizard",
+    "slug": "stepper-wizard",
+    "category": "forms",
+    "url": "https://designmotionhq.com/patterns/stepper-wizard",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 39,
+    "title": "Tabs System",
+    "slug": "tabs-system",
+    "category": "navigation",
+    "url": "https://designmotionhq.com/patterns/tabs-system",
+    "skill": "navigation-information-architecture"
+  },
+  {
+    "number": 40,
+    "title": "Toast Notifications",
+    "slug": "toast-notifications",
+    "category": "feedback",
+    "url": "https://designmotionhq.com/patterns/toast-notifications",
+    "skill": "feedback-loading-errors"
+  },
+  {
+    "number": 41,
+    "title": "Toggle Anatomy",
+    "slug": "toggle-anatomy",
+    "category": "inputs",
+    "url": "https://designmotionhq.com/patterns/toggle-anatomy",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 42,
+    "title": "Tooltip Design",
+    "slug": "tooltip-design",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/tooltip-design",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 43,
+    "title": "Visual Hierarchy",
+    "slug": "visual-hierarchy",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/visual-hierarchy",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 44,
+    "title": "Z-Index Mastery",
+    "slug": "z-index-mastery",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/z-index-mastery",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 45,
+    "title": "Zeigarnik Effect",
+    "slug": "zeigarnik-effect",
+    "category": "content",
+    "url": "https://designmotionhq.com/patterns/zeigarnik-effect",
+    "skill": "content-conversion"
+  },
+  {
+    "number": 46,
+    "title": "Focus States",
+    "slug": "focus-states",
+    "category": "navigation",
+    "url": "https://designmotionhq.com/patterns/focus-states",
+    "skill": "navigation-information-architecture"
+  },
+  {
+    "number": 47,
+    "title": "Swipe Actions",
+    "slug": "swipe-actions",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/swipe-actions",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 48,
+    "title": "Undo UX",
+    "slug": "undo-ux",
+    "category": "feedback",
+    "url": "https://designmotionhq.com/patterns/undo-ux",
+    "skill": "feedback-loading-errors"
+  },
+  {
+    "number": 49,
+    "title": "Bottom Sheets",
+    "slug": "bottom-sheets",
+    "category": "overlays",
+    "url": "https://designmotionhq.com/patterns/bottom-sheets",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 50,
+    "title": "Form Validation Timing",
+    "slug": "form-validation-timing",
+    "category": "forms",
+    "url": "https://designmotionhq.com/patterns/form-validation-timing",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 51,
+    "title": "Microcopy",
+    "slug": "microcopy",
+    "category": "content",
+    "url": "https://designmotionhq.com/patterns/microcopy",
+    "skill": "content-conversion"
+  },
+  {
+    "number": 52,
+    "title": "Optimistic UI",
+    "slug": "optimistic-ui",
+    "category": "feedback",
+    "url": "https://designmotionhq.com/patterns/optimistic-ui",
+    "skill": "feedback-loading-errors"
+  },
+  {
+    "number": 53,
+    "title": "Gradient Design",
+    "slug": "gradient-design",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/gradient-design",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 54,
+    "title": "Skeleton Loading",
+    "slug": "skeleton-loading",
+    "category": "feedback",
+    "url": "https://designmotionhq.com/patterns/skeleton-loading",
+    "skill": "feedback-loading-errors"
+  },
+  {
+    "number": 55,
+    "title": "Color Picker UX",
+    "slug": "color-picker-ux",
+    "category": "inputs",
+    "url": "https://designmotionhq.com/patterns/color-picker-ux",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 56,
+    "title": "File Upload UX",
+    "slug": "file-upload-ux",
+    "category": "forms",
+    "url": "https://designmotionhq.com/patterns/file-upload-ux",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 57,
+    "title": "Password Field UX",
+    "slug": "password-field-ux",
+    "category": "forms",
+    "url": "https://designmotionhq.com/patterns/password-field-ux",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 58,
+    "title": "Command Palette",
+    "slug": "command-palette",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/command-palette",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 59,
+    "title": "Filter Chips",
+    "slug": "filter-chips",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/filter-chips",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 60,
+    "title": "OTP Input",
+    "slug": "otp-input",
+    "category": "forms",
+    "url": "https://designmotionhq.com/patterns/otp-input",
+    "skill": "forms-inputs"
+  },
+  {
+    "number": 61,
+    "title": "Pagination",
+    "slug": "pagination",
+    "category": "navigation",
+    "url": "https://designmotionhq.com/patterns/pagination",
+    "skill": "navigation-information-architecture"
+  },
+  {
+    "number": 62,
+    "title": "Accordion Disclosure",
+    "slug": "accordion-disclosure",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/accordion-disclosure",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 63,
+    "title": "Data Table",
+    "slug": "data-table",
+    "category": "interactions",
+    "url": "https://designmotionhq.com/patterns/data-table",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 64,
+    "title": "Card Hover Anatomy",
+    "slug": "card-hover-anatomy",
+    "category": "motion",
+    "url": "https://designmotionhq.com/patterns/card-hover-anatomy",
+    "skill": "motion-animation"
+  },
+  {
+    "number": 65,
+    "title": "Modal Hierarchy",
+    "slug": "modal-hierarchy",
+    "category": "overlays",
+    "url": "https://designmotionhq.com/patterns/modal-hierarchy",
+    "skill": "interaction-patterns"
+  },
+  {
+    "number": 66,
+    "title": "Icon Design Rules",
+    "slug": "icon-design-rules",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/icon-design-rules",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 67,
+    "title": "Landing Page Skeleton",
+    "slug": "landing-page-skeleton",
+    "category": "content",
+    "url": "https://designmotionhq.com/patterns/landing-page-skeleton",
+    "skill": "content-conversion"
+  },
+  {
+    "number": 68,
+    "title": "Scroll-Driven Animations",
+    "slug": "scroll-driven-animations",
+    "category": "motion",
+    "url": "https://designmotionhq.com/patterns/scroll-driven-animations",
+    "skill": "motion-animation"
+  },
+  {
+    "number": 69,
+    "title": "Design Tokens",
+    "slug": "design-tokens",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/design-tokens",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 70,
+    "title": "Color Accessibility",
+    "slug": "color-accessibility",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/color-accessibility",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 71,
+    "title": "Gestalt Laws",
+    "slug": "gestalt-laws",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/gestalt-laws",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 72,
+    "title": "Border Radius",
+    "slug": "border-radius",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/border-radius",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 73,
+    "title": "Dark Mode",
+    "slug": "dark-mode",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/dark-mode",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 74,
+    "title": "Von Restorff Effect",
+    "slug": "von-restorff",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/von-restorff",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 75,
+    "title": "Perfect Card",
+    "slug": "perfect-card",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/perfect-card",
+    "skill": "visual-design-systems"
+  },
+  {
+    "number": 76,
+    "title": "Depth Layers",
+    "slug": "depth-layers",
+    "category": "visual-design",
+    "url": "https://designmotionhq.com/patterns/depth-layers",
+    "skill": "visual-design-systems"
+  }
+]
