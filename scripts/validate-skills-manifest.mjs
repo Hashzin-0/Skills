@@ -17,8 +17,9 @@ if (index.type !== "skills" || !Array.isArray(index.categories)) {
 const indexed = new Map();
 for (const category of index.categories) {
   for (const skill of category.skills ?? []) {
-    if (indexed.has(skill.name)) throw new Error(`Duplicate skill name in index: ${skill.name}`);
-    indexed.set(skill.name, skill);
+    const entries = indexed.get(skill.name) ?? [];
+    entries.push(skill);
+    indexed.set(skill.name, entries);
   }
 }
 
@@ -41,10 +42,9 @@ for (const group of manifest.groups) {
     if (!fs.existsSync(fullPath) || !fs.statSync(fullPath).isFile()) {
       throw new Error(`Manifest skill file not found: ${skill.path}`);
     }
-    const indexedSkill = indexed.get(skill.name);
-    if (!indexedSkill) throw new Error(`Skill missing from index.json: ${skill.name}`);
-    if (indexedSkill.path !== skill.path) {
-      throw new Error(`Path mismatch for ${skill.name}: manifest=${skill.path}; index=${indexedSkill.path}`);
+    const indexedEntries = indexed.get(skill.name) ?? [];
+    if (!indexedEntries.some(entry => entry.path === skill.path)) {
+      throw new Error(`Skill/path missing from index.json: ${skill.name} (${skill.path})`);
     }
     const content = fs.readFileSync(fullPath, "utf8");
     if (!content.trim() || !/^---\s*\n[\s\S]*?\n---\s*\n/.test(content)) {
