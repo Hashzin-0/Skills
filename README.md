@@ -90,3 +90,35 @@ As skills são indexadas pelo MCP `github-registry-mcp`. Use as tools:
 ### Para domínio específico:
 1. Criar a skill dentro da pasta do domínio (ex: `seguranca/financas/`)
 2. Adicionar ao índice com path correto (ex: `seguranca/financas/minha-skill/SKILL.md`)
+
+## Skills adicionadas: design, vídeo e ícones 3D
+
+Esta atualização incorpora skills upstream com atribuição e links de origem. Elas são organizadas por função, sem impor stack ou instalar dependências automaticamente.
+
+| Skill | Caminho no registry | Quando usar | Integração/plugin sugerido |
+|---|---|---|---|
+| Design Taste Frontend | `skills/frontend/ui-ux/design-taste-frontend/SKILL.md` | Landing pages, portfólios e interfaces de marketing novas | Plugin de Frontend/UI-UX |
+| Redesign Existing Projects | `skills/frontend/ui-ux/redesign-existing-projects/SKILL.md` | Auditar e melhorar UI existente preservando arquitetura e comportamento | Plugin de Frontend/UI-UX e revisão de código |
+| High-end Visual Design | `skills/frontend/ui-ux/high-end-visual-design/SKILL.md` | Direção visual premium quando o briefing pede esse estilo | Plugin de Frontend/UI-UX |
+| GPT Taste | `skills/frontend/ui-ux/gpt-taste/SKILL.md` | Direção de frontend mais experimental e motion avançado; aplicar seletivamente | Plugin de Frontend/UI-UX / motion |
+| Image to Code | `skills/frontend/ui-ux/image-to-code/SKILL.md` | Converter referências visuais em implementação após análise | Plugin de Frontend/UI-UX e geração de imagens |
+| Full Output Enforcement | `skills/qualidade/core/full-output-enforcement/SKILL.md` | Evitar entregas incompletas, placeholders e omissões | Plugin de Qualidade/Code Review |
+| Brag | `skills/utilitarios/video/brag/SKILL.md` | Planejar vídeo curto de lançamento com Hyperframes | Plugin de vídeo/marketing; requer ambiente e dependências upstream |
+| Brag Slim | `skills/utilitarios/video/brag-slim/SKILL.md` | Alternativa enxuta para produzir vídeo de lançamento sem Hyperframes | Plugin de vídeo/marketing |
+| 3D Icon | `skills/criacao/video/3dicon/SKILL.md` | Criar ícone 3D animado em WebP com transparência real | Plugin de geração de mídia/ícones; requer Python, FFmpeg e credenciais de provedor |
+
+### Regras de composição dos plugins
+
+- **Frontend/UI-UX:** carregar Design Taste como orientação geral; selecionar Redesign para bases existentes, Image to Code para fluxo com referência visual, High-end Visual Design apenas quando o briefing justificar e GPT Taste apenas se o usuário aceitar uma direção experimental/motion-heavy. Não combinar automaticamente todas as direções visuais em uma única tarefa.
+- **Qualidade:** usar Full Output Enforcement como verificação de completude, subordinada às regras locais, ao escopo e aos limites técnicos.
+- **Vídeo:** escolher Brag ou Brag Slim por execução e requisitos; não executar ambos por padrão. Brag depende do workflow Hyperframes; Brag Slim exige ferramentas locais de renderização.
+- **Ícones 3D:** exigir aprovação explícita da imagem estática antes de animar e confirmação antes de etapas que gerem custos. Não afirmar que a skill por si só instala credenciais, executa a pipeline ou gera os arquivos.
+- **Conflitos:** as regras locais do projeto e os requisitos de acessibilidade, segurança, dependências e preservação funcional prevalecem sobre preferências estéticas genéricas.
+
+### Proveniência e licenças
+
+- Brag: [latent-spaces/brag](https://github.com/latent-spaces/brag), licença MIT.
+- Taste Skill e variantes: [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill), licença MIT.
+- 3D Icon: [samyost1/3dicon](https://github.com/samyost1/3dicon), licença MIT.
+
+Os arquivos foram importados como skills de instrução. A skill 3D Icon não inclui automaticamente todo o runtime Python, assets, modelos de matting, chaves ou binários do projeto upstream; siga o README de origem para configurar a pipeline real.
